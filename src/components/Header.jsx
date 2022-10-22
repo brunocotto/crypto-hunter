@@ -30,9 +30,8 @@ export default function Header() {
         <AppBar color="transparent" position="static">
           <Container>
             <Toolbar>
-              <Link to={"/"}>
-                <Typography className={classes.title}>Crypto Hunter</Typography>
-              </Link>
+              <Typography className={classes.title}><Link to={"/"}>Crypto Hunter</Link>
+              </Typography>
               <Select 
               variant="outlined" 
               style={{
