@@ -14,7 +14,7 @@
 
 * Vite
 * React
-* Hoocks React(useState, useEffect, makeStyles MaterialUI)
+* Hoocks React(useState, useEffect, useNavigate, makeStyles MaterialUI)
 * MaterialUI(@material-ui/core, @material-ui/lab)
 * react-alice-carousel
 
@@ -23,6 +23,7 @@
 * Banner
 * Carousel
 * Header
+* CoinsTable
 
 ### Componentes Pages JSX:
 

@@ -56,7 +56,7 @@ export default function Carousel() {
                     style={{ marginBottom: 10 }}/>
                     <span
                     style={{
-                        color: profit > 0 ? "rgb(14, 203, 129" : "red",
+                        color: profit > 0 ? "#00c853" : "#d32f2f",
                         fontWeight: 500,
                     }}
                     > 
