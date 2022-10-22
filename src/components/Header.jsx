@@ -1,6 +1,7 @@
 import { AppBar, Container, createTheme, makeStyles, MenuItem, Select, ThemeProvider, Toolbar, Typography } from "@material-ui/core";
 import React from "react";
 import { Link } from "react-router-dom";
+import { CryptoState } from "../cryptoContext";
 
 const useStyles = makeStyles({
   title: {
@@ -15,6 +16,10 @@ const useStyles = makeStyles({
 export default function Header() {
 
   const classes = useStyles();
+
+  const { currency, setCurrency } = CryptoState()
+
+  console.log(currency)
 
   const darkTheme = createTheme({
     palette: {
@@ -38,7 +43,9 @@ export default function Header() {
                 width: 100,
                 height: 40,
                 marginLeft: 15,
-              }}>
+              }}
+              value={currency}
+              onChange={(e) => setCurrency(e.target.value)}>
                 <MenuItem value={"USD"}>USD</MenuItem>
                 <MenuItem value={"BRL"}>BRL</MenuItem>
               </Select>
