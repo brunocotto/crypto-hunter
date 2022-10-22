@@ -14,7 +14,7 @@
 
 * Vite
 * React
-* Hoocks React(useState, useEffect, useNavigate, makeStyles MaterialUI)
+* Hoocks React(useState, useEffect, useNavigate, useParams, makeStyles MaterialUI)
 * MaterialUI(@material-ui/core, @material-ui/lab)
 * react-alice-carousel
 
