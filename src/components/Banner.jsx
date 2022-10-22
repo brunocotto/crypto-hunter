@@ -1,4 +1,5 @@
 import { Container, FormHelperText, makeStyles, Typography } from "@material-ui/core"
+import Carousel from "./Carousel";
 
 
 const useStyles = makeStyles({
@@ -50,6 +51,7 @@ export default function Banner() {
                         Obtenha e analise todas as informações sobre sua criptomoeda favorita.
                     </Typography>
                 </div>
+                <Carousel />
             </Container>
         </div>
     )
