@@ -1,8 +1,9 @@
+import './App.css'
+import App from './App'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
-import './App.css'
 import CryptoContext from './cryptoContext'
+import 'react-alice-carousel/lib/alice-carousel.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

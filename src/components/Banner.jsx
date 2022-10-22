@@ -48,7 +48,7 @@ export default function Banner() {
                         fontFamily: "Montserrat",
                     }}
                     >
-                        Obtenha e analise todas as informações sobre sua criptomoeda favorita.
+                        Encontre todas as informações sobre sua criptomoeda favorita.
                     </Typography>
                 </div>
                 <Carousel />
