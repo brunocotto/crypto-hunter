@@ -17,6 +17,7 @@
 * Hoocks React(useState, useEffect, useNavigate, useParams, makeStyles MaterialUI)
 * MaterialUI(@material-ui/core, @material-ui/lab)
 * react-alice-carousel
+* react-html-parser
 
 ### Componentes JSX:
 
